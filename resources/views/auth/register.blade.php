@@ -13,7 +13,7 @@
 
             <div class="mt-4">
                 <x-jet-label for="email" value="{{ __('email') }}" />
-                <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+                <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="email"/>
             </div>
 
             <div>
@@ -37,8 +37,8 @@
             </div>
 
             <div>
-                <x-jet-label for="movil" value="{{ __('movil') }}" />
-                <x-jet-input id="movil" class="block mt-1 w-full" type="text" name="movil" :value="old('movil')" required autofocus autocomplete="movil" />
+                <x-jet-label for="tlf_movil" value="{{ __('tlf_movil') }}" />
+                <x-jet-input id="tlf_movil" class="block mt-1 w-full" type="text" name="tlf_movil" :value="old('tlf_movil')" required autofocus autocomplete="tlf_movil" />
             </div>
 
 

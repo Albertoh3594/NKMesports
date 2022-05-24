@@ -26,7 +26,7 @@ class CreateNewUser implements CreatesNewUsers
             'apellido1' => ['required', 'string'],
             'apellido2' => ['string'],
             'f_nacimiento' => ['required', 'date'],
-            'movil' => ['required', 'numeric'],
+            'tlf_movil' => ['required', 'numeric'],
             'password' => $this->passwordRules(),
             'terms' => Jetstream::hasTermsAndPrivacyPolicyFeature() ? ['accepted', 'required'] : '',
         ])->validate();
@@ -37,7 +37,7 @@ class CreateNewUser implements CreatesNewUsers
             'apellido1' => $input['apellido1'],
             'apellido2' => $input['apellido2'],
             'f_nacimiento' => $input['f_nacimiento'],
-            'movil' => $input['movil'],
+            'tlf_movil' => $input['tlf_movil'],
             'password' => Hash::make($input['password']),
         ]);
     }
