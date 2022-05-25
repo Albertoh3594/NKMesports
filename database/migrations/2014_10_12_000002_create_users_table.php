@@ -23,7 +23,7 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->date('f_nacimiento');
             $table->integer('tlf_movil');
-            $table->unsignedBigInteger('team_id');
+            $table->unsignedBigInteger('team_id')->nullable();
             $table->foreign('team_id')->references('id')->on('teams')->delete('cascade');
             $table->string('localidad')->nullable();
             $table->string('provincia')->nullable();

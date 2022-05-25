@@ -109,6 +109,7 @@ class ComposerStaticInitaf2fe922ee3b764ba8d780201198a6b0
         'N' => 
         array (
             'NunoMaduro\\Collision\\' => 21,
+            'NascentAfrica\\Jetstrap\\' => 23,
         ),
         'M' => 
         array (
@@ -387,6 +388,10 @@ class ComposerStaticInitaf2fe922ee3b764ba8d780201198a6b0
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/collision/src',
         ),
+        'NascentAfrica\\Jetstrap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nascent-africa/jetstrap/src/NascentAfrica/Jetstrap',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -572,6 +577,7 @@ class ComposerStaticInitaf2fe922ee3b764ba8d780201198a6b0
         'App\\Http\\Controllers\\CommentController' => __DIR__ . '/../..' . '/app/Http/Controllers/CommentController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\GameController' => __DIR__ . '/../..' . '/app/Http/Controllers/GameController.php',
+        'App\\Http\\Controllers\\ImageController' => __DIR__ . '/../..' . '/app/Http/Controllers/ImageController.php',
         'App\\Http\\Controllers\\OrderController' => __DIR__ . '/../..' . '/app/Http/Controllers/OrderController.php',
         'App\\Http\\Controllers\\OrderLineController' => __DIR__ . '/../..' . '/app/Http/Controllers/OrderLineController.php',
         'App\\Http\\Controllers\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductController.php',
@@ -3573,6 +3579,12 @@ class ComposerStaticInitaf2fe922ee3b764ba8d780201198a6b0
         'Monolog\\SignalHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/SignalHandler.php',
         'Monolog\\Test\\TestCase' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Test/TestCase.php',
         'Monolog\\Utils' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Utils.php',
+        'NascentAfrica\\Jetstrap\\Console\\InstallCommand' => __DIR__ . '/..' . '/nascent-africa/jetstrap/src/NascentAfrica/Jetstrap/Console/InstallCommand.php',
+        'NascentAfrica\\Jetstrap\\Helpers' => __DIR__ . '/..' . '/nascent-africa/jetstrap/src/NascentAfrica/Jetstrap/Helpers.php',
+        'NascentAfrica\\Jetstrap\\Jetstrap' => __DIR__ . '/..' . '/nascent-africa/jetstrap/src/NascentAfrica/Jetstrap/Jetstrap.php',
+        'NascentAfrica\\Jetstrap\\JetstrapFacade' => __DIR__ . '/..' . '/nascent-africa/jetstrap/src/NascentAfrica/Jetstrap/JetstrapFacade.php',
+        'NascentAfrica\\Jetstrap\\JetstrapServiceProvider' => __DIR__ . '/..' . '/nascent-africa/jetstrap/src/NascentAfrica/Jetstrap/JetstrapServiceProvider.php',
+        'NascentAfrica\\Jetstrap\\Presets' => __DIR__ . '/..' . '/nascent-africa/jetstrap/src/NascentAfrica/Jetstrap/Presets.php',
         'Nette\\ArgumentOutOfRangeException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
         'Nette\\DeprecatedException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
         'Nette\\DirectoryNotFoundException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',

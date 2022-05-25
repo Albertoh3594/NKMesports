@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'acd237689b173111535f7b16e42dcab2ba1205bc',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -428,12 +428,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'acd237689b173111535f7b16e42dcab2ba1205bc',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -557,6 +557,15 @@
             'install_path' => __DIR__ . '/../myclabs/deep-copy',
             'aliases' => array(),
             'reference' => '14daed4296fae74d9e3201d2c4925d1acb7aa614',
+            'dev_requirement' => true,
+        ),
+        'nascent-africa/jetstrap' => array(
+            'pretty_version' => 'v2.5.4',
+            'version' => '2.5.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nascent-africa/jetstrap',
+            'aliases' => array(),
+            'reference' => '12012b2cf2563f7843dc90f41fc2e471c50c9547',
             'dev_requirement' => true,
         ),
         'nesbot/carbon' => array(
